@@ -1,1 +1,1 @@
-# koga.github.io
+# koga-company.github.io
