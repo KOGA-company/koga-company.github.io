@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset='utf-8'>
-	<title>The Official GLR Site</title>
+	<title>KOGA - Home</title>
 	<link rel='icon' href='glr.svg' type='image/x-icon'>
 	<link rel='preconnect' href='https://fonts.googleapis.com'>
 	<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
@@ -17,80 +17,25 @@
 
 <div class='s' id='home'>
 <div class='c1' id='c1a'>
-	<div id='bg'><img src='rr3.jpg' width='100%'>
-		<div style='position: absolute; display: flex; background-color: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; justify-content: center; align-items: center;'>
-			<div id='in' style='width: 40%; margin-right: 5%; margin-top: -150px; font-size: 30px; color:#ffffff; background-color: rgba(0, 100, 0, 0.2);'></div>
-			<div style='margin-top: -150px;'>
-				<div style="display: block;"><img src='glr.svg' width='300px'></div>
-				<div style="display: block; color: #00ffff; font-family: Goldman; font-size: 50px;">GADDIEL LARA ROLDÁN</div>
-				<div style="display: block; color: #00ffff; font-family: Goldman; font-size: 30px;">Robotics and Digital Systems Engineer</div>
-			</div>
-		</div>
+	<div id='bg'><img src='logo.svg' width='65%'>
 	</div>
-	<p><br></p>
-	<div style='width: 100%; height: 100px; background-color: #48fd48; font-size: 50px; font-weight: bold; display: flex; align-items: center; justify-content: center;'>PROJECTS</div>
+	<br><br>
+	<div style='width: 100%; height: 100px; background-color: #48fd48; font-size: 50px; font-weight: bold; display: flex; align-items: center; justify-content: center;'>OUR PRODUCTS</div>
 	<p><br></p>
 	<div class='b'>
-		<div class='h'><img src='localization.png' height='100%'></div>
+		<div class='h'><img src='Am.png' height='100%'></div>
 		<div class='h'>
 			<div class='ht'>
 				<div style='display: block;'>
-					<div style='color: #ffffff; font-size: 30px; font-weight: bold;'>Robot Localization</div>
-					<p>A Puzzlebot was programmed to localize itself in an environment with markers, detecting markers with a camera and obstacles with a LiDAR sensor. The goal was for the robot to move itself to any goal with high precision, without collisions. I was in charge of managing the project and developing the algorithms needed for the obstacle avoidance and a localization filter.</p>
+					<div style='color: #ffffff; font-size: 30px; font-weight: bold;'>ASTROMEGA</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna uniqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
 			</div>
 		</div>	
 	</div>
 	<p><br></p>
-	<div class='b'>
-		<div class='h'>
-			<div class='ht'>
-				<div style='display: block;'>
-					<div style='color: #ffffff; font-size: 30px; font-weight: bold;'>Robot Autonomous Drive</div>
-					<p>This project was about programming a Puzzlebot to follow a track, responding to traffic signals. This was achived by programming a signal detection neural network in Python, and running it in real-time with the Puzzlebot camera. My job was to create the track detection program in Python, and implementing the control system for following these tracks, as well as leading the project.</p>
-				</div>
-			</div>
-		</div>
-		<div class='h'><img src='signals.png' height='100%'></div>
-	</div>
-	<p><br></p>
-	<div class='b'>
-		<div class='h'><video height="90%" controls><source src="binpick.mp4" type="video/mp4"></video></div>
-		<div class='h'>
-			<div class='ht'>
-				<div style='display: block;'>
-					<div style='color: #ffffff; font-size: 30px; font-weight: bold;'>Collabotative Bin Picking System</div>
-					<p>This was a system capable of automatically classifying fruit and placing it in containers. A pneumatic soft gripper system was developed and attached to the Ufactory Lite6 robot, along with a camera running a neural network. My tasks were developing a visual interface with the real-time system data, making a calibration for the camera, creating the state machine robot program and a database storage program. I also set up the system components physically, and connected them with the control computer via MQTT.</p>
-				</div>
-			</div>
-		</div>	
-	</div>
-	<p><br></p>
-	<div class='b'>
-		<div class='h'>
-			<div class='ht'>
-				<div style='display: block;'>
-					<div style='color: #ffffff; font-size: 30px; font-weight: bold;'>Drone Signal Tracking</div>
-					<p>A DJITello Drone was controlled with hand signals made at a camera. A Python program opened the camera, detected hand keypoints using the MediaPipe library, then made the sign detection and sent instructions to the drone. I worked in creating the functions for classifying the hand keypoints, and the drone response coding.</p>
-				</div>
-			</div>
-		</div>
-		<div class='h'><iframe width="640" height="480" src="https://www.youtube.com/embed/seK5mtbAimY?si=aqcB_CWDEKuQiBxt"></iframe></div>
-	</div>
-	<p><br></p>
-	<div class='b'>
-		<div class='h'><iframe width="640"	height="480" src="https://www.youtube.com/embed/vbbYimcV4Bo?si=ggkc1oaUof4XxXgQ"></iframe></div>
-		<div class='h'>
-			<div class='ht'>
-				<div style='display: block;'>
-					<div style='color: #ffffff; font-size: 30px; font-weight: bold;'>Temperature Controller</div>
-					<p>This was a PID Control System implementation, using a REX-C100 Controller, with the goal of keeping a constant temperature of 20°C for a container with 20 liters of water to be used in a metrology lab. I made some experiments for this project, collecting the data for analysis. I used Matlab for analyzing the system efficiency.</p>
-				</div>
-			</div>
-		</div>	
-	</div>
 	<p><br><br></p>
-	<div style='font-size: 30px; font-weight: bold; color: #48fd48;'>"<div style='font-style: italic; display: inline-block;'>Innovation distinguishes between a leader and a follower.</div><div style='display: inline-block;'>" - Steve Jobs.</div></div>
+	<div style='font-size: 30px; font-weight: bold; color: #48fd48;'>"<div style='font-style: italic; display: inline-block;'>Do or do not. There is no try.</div><div style='display: inline-block;'>" - YODA.</div></div>
 	<p><br><br></p>
 	<div class='ft'></div>
 </div>
@@ -100,14 +45,7 @@
 <div class='c1' id='c1b'>
 	<div style="display: flex; align-items: center; justify-content: center; margin-top: 70px;" >
 		<div>
-		<div class='i' id='i00' onclick='G(0,1)'><img id='ii00' src='degree.jpg' height='100%''></div>
-		<div class='i' id='i01' onclick='G(1,1)'><img id='ii01' src='concentration.jpg' height='100%'></div>
-		<div class='i' id='i02' onclick='G(2,1)'><img id='ii02' src='certificateDL.jpg' height='100%'></div>
-		<div class='i' id='i03' onclick='G(3,1)'><img id='ii03' src='certificatePBI.png' height='100%'></div>
-		<div class='i' id='i04' onclick='G(4,1)'><img id='ii04' src='certificateLESP.jpg' height='100%'></div>
-		<div class='i' id='i05' onclick='G(5,1)'><img id='ii05' src='recognition1.jpg' height='100%'></div>
-		<div class='i' id='i06' onclick='G(6,1)'><img id='ii06' src='recognition2.jpg' height='100%'></div>
-		<div class='i' id='i07' onclick='G(7,1)'><img id='ii07' src='certificateEng.jpg' height='100%'></div>
+		<div class='i' id='i00' onclick='G(0,1)'><img id='ii00' src='poiuytrewqASDFGHJKLÑMNBVCXZ.jpg' height='100%'></div>
 		</div>
 	</div>
 	<p><br><br><br></p>
@@ -121,19 +59,19 @@
 		<div class='cont'>
 			<div class='S1'>
 				<img src='r00.jpg' style='height:100%'>
-				<div class='text'><p>Setting up Eagle X Rover's motor controllers.</p></div>
+				<div class='text'><p>IMAGE 1</p></div>
 			</div>
 			<div class='S1'>
 				<img src='r01.jpg' style='height:100%'>
-				<div class='text'><p>Wiring the Eagle X Rover.</p></div>
+				<div class='text'><p>IMAGE 2</p></div>
 			</div>
 			<div class='S1'>
 				<video height="100%" controls><source src="r02.mp4" type="video/mp4"></video>
-				<div class='text'><p>Testing the Eagle X Rover's new gripper.</p></div>
+				<div class='text'><p>IMAGE 3</p></div>
 			</div>
 			<div class='S1'>
 				<video height="100%" controls><source src="ufl.mp4" type="video/mp4"></video>
-				<div class='text'><p>Testing Ufactory Lite6 palletization with simulation.</p></div>
+				<div class='text'><p>IMAGE 4</p></div>
 			</div>
 			<a class='lb' onclick='S(-1)'>&#10094;</a>
 			<a class='rb' onclick='S(1)'>&#10095;</a>
@@ -145,8 +83,8 @@
 </div>
 
 <div id='m'>
-		<div class='hb'><a class='ab' href='#home'><img src='glr_g.svg' height='80%''></a></div>
-        <div class='hb'><a class='ab' href='#certificates'>Certificates</a></div>
+		<div class='hb'><a class='ab' href='#home'><img src='logo.svg' height='80%''></a></div>
+        <div class='hb'><a class='ab' href='#certificates'>About Us</a></div>
         <div class='hb'><a class='ab' href='#gallery'>Gallery</a></div>
 </div>
 </body>

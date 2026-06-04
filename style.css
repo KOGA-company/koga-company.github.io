@@ -164,9 +164,13 @@ p{
   display: inline-block;
   width: 50%;
   height: 500px;
+  align-items: center;
+  justify-content: center;
+
 }
 .ht{
-  width: 90%;
+  width: 70%;
+  padding-left: 25%;
   height: 100%;
   display: flex;
   align-items: center;
