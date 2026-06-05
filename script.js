@@ -12,7 +12,7 @@ const i3d=[
 'recognition2.jpg',
 'certificateEng.jpg'
 ];
-const ih = "<a class='fb' href='https://www.linkedin.com/in/koga-company/'><img src='li.svg' height='75px'></a> <a class='fb' href='https://github.com/KOGA-company'><img src='gh.svg' height='75px'></a> <a class='fb' href='https://www.youtube.com/@Kogathecompany'><img src='yt.svg' height='75px'></a>";
+const ih = "<a class='fb' href='https://www.linkedin.com/in/koga-company/'><img src='li.svg' height='75px'></a> <a class='fb' href='https://github.com/KOGA-company'><img src='gh.svg' height='75px'></a> <a class='fb' href='page1/index.php'><img src='yt.svg' height='75px'></a>";
 const tx='kiki du llu lob mi ar llu raidin sei llul neber eber lib from bisaid mi coz ay guant llu en ai nid llu en aim daun for llu olweis kiki du llu lob mi ar llu raidin sei llul neber eber lib from bisaid mi coz ay guant llu en ai nid llu en aim daun for llu olweis kiki du llu lob mi ar llu raidin sei llul neber eber lib from bisaid mi coz ay guant llu en ai nid llu en aim daun for llu olweis kiki du llu lob mi ar llu raidin sei llul neber eber lib from bisaid mi coz ay guant llu en ai nid llu en aim daun for llu olweis kiki du llu lob mi ar llu raidin sei llul neber eber lib from bisaid mi coz ay guant llu en ai nid llu en aim daun for llu olweis kiki du llu lob mi ar llu raidin sei llul neber eber lib from bisaid mi coz ay guant llu en ai nid llu en aim daun for llu olweis';
 const dt = setInterval(T, 60);
 var txi = 0;
